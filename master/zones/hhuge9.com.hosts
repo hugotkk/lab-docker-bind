@@ -1,0 +1,15 @@
+@             IN   SOA    hhuge9.com. admin.hhuge9.com. (
+        2023013105     ; serial
+        360		       ; Refresh after 6 mins
+        180		       ; Retry after 3 mins
+        604800	       ; Expire after 1 week
+        300 )		   ; Minimum TTL 5 mins
+
+              IN   NS     ns1.hhuge9.com.
+              IN   NS     ns2.hhuge9.com.
+
+ns1           IN   A      172.28.0.2
+ns2           IN   A      172.28.0.3
+
+web           IN   A      192.168.0.14
+svr1          IN   A      192.168.0.15
